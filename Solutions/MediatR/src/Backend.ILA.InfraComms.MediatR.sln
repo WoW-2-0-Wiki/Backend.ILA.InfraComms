@@ -2,7 +2,9 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "N1.MediatR.Messages", "N1.MediatR.Messages\N1.MediatR.Messages.csproj", "{CCEB6457-5037-4479-BE12-0BC654E2AF65}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "N1.MediatR.Streams", "N1.MediatR.Streams\N1.MediatR.Streams.csproj", "{FA42A71A-CC7D-4C76-AE78-2AE1BF909B50}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "N2.MediatR.Streams", "N2.MediatR.Streams\N2.MediatR.Streams.csproj", "{FA42A71A-CC7D-4C76-AE78-2AE1BF909B50}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "N3.MediatR.PipelineBehavior", "N3.MediatR.PipelineBehavior\N3.MediatR.PipelineBehavior.csproj", "{9F49BD8C-0FC3-46ED-8DD0-734593E3783F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -18,5 +20,9 @@ Global
 		{FA42A71A-CC7D-4C76-AE78-2AE1BF909B50}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FA42A71A-CC7D-4C76-AE78-2AE1BF909B50}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FA42A71A-CC7D-4C76-AE78-2AE1BF909B50}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9F49BD8C-0FC3-46ED-8DD0-734593E3783F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F49BD8C-0FC3-46ED-8DD0-734593E3783F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F49BD8C-0FC3-46ED-8DD0-734593E3783F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F49BD8C-0FC3-46ED-8DD0-734593E3783F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
