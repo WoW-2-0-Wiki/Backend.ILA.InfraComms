@@ -1,7 +1,7 @@
 ﻿using System.Diagnostics;
 using MediatR;
 using Microsoft.Extensions.DependencyInjection;
-using N1.MediatR.Streams.StreamRequests;
+using N2.MediatR.Streams.StreamRequests;
 
 var services = new ServiceCollection();
 

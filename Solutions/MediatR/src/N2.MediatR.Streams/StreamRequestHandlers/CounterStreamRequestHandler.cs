@@ -1,8 +1,8 @@
 using System.Runtime.CompilerServices;
 using MediatR;
-using N1.MediatR.Streams.StreamRequests;
+using N2.MediatR.Streams.StreamRequests;
 
-namespace N1.MediatR.Streams.StreamRequestHandlers;
+namespace N2.MediatR.Streams.StreamRequestHandlers;
 
 public class CounterStreamRequestHandler : IStreamRequestHandler<CounterStreamRequest, int>
 {
